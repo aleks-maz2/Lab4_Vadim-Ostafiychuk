@@ -23,7 +23,7 @@ int main() {
 	}
 	else if (abuse == 2) 
 	{
-		printf("Введiть ти завдання: (1-3)");
+		printf("Введiть тип завдання: (1-3)");
 		scanf("%d", &tip);
 		if(tip == 1) {
 			zavdanyaTwoA();
@@ -100,7 +100,7 @@ int zavdanyaTwoA() {
 	int x;
 
 	long long int multiplication = 1;
-	printf("Введіть початкове число (ціле число бiльше 10): ");
+	printf("Введiть початкове число (цiле число бiльше 10): ");
 	scanf("%d", &x);
 	
 	for(int i = x ; i <= 50; i++) {
@@ -123,11 +123,11 @@ int zavdanyaTwoB() {
 	int x;
 
 	long long int multiplication = 1;
-	printf("Введіть початкове число (ціле число бiльше 10): ");
+	printf("Введiть початкове число (цiле число бiльше 10): ");
 	scanf("%d", &x);
 
 	while(x<10) {
-		printf("Введіть початкове число (ціле число бiльше 10): ");
+		printf("Введiть початкове число (цiле число бiльше 10): ");
 		scanf("%d", &x);
 	}
 	int i = x;
@@ -148,7 +148,7 @@ int zavdanyaTwoC() {
 	int x;
 
 	long long int multiplication = 1;
-	printf("Введіть початкове число (ціле число бiльше 10): ");
+	printf("Введiть початкове число (цiле число бiльше 10): ");
 	scanf("%d", &x);
 	
 	int i = x;

@@ -61,3 +61,5 @@ output\main.obj: \
 	$(CC) $(CCFLAGS) "$!" -Fo"$@"
 
 .SILENT:
+
+.EXCLUDEDFILES:
